@@ -1,6 +1,6 @@
 ---
 - hosts:  localhost
-  ansible_user: mbagirov
+  remote_user: mbagirov
   become: yes
   roles:
   - 'elastic'
