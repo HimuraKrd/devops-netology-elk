@@ -1,6 +1,7 @@
 ---
 - hosts:  localhost
-#  become: yes
+  remote_user: mbagirov
+  become: yes
   roles:
   - 'elastic'
 #  - 'kibana'
