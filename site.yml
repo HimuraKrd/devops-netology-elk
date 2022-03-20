@@ -1,7 +1,7 @@
 ---
 - hosts:  localhost
-#  remote_user: mbagirov
-#  become: yes
+  ansible_user: mbagirov
+  become: yes
   roles:
   - 'elastic'
 #  - 'kibana'
